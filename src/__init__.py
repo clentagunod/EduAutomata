@@ -1,0 +1,1 @@
+"""Edu Automata application package."""
