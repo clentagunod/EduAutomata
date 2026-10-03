@@ -5,12 +5,12 @@ from pathlib import Path
 
 from openpyxl import load_workbook
 
-from source.analytics import summarize
-from source.constants import CATEGORIES, DEFAULT_WORKBOOK_PATH
-from source.data import category_columns
-from source.preferences import Preferences, PreferencesStore
-from source.storage import SQLiteRepository
-from source.workbook import WorkbookSynchronizer
+from src.analytics import summarize
+from src.constants import CATEGORIES, DEFAULT_WORKBOOK_PATH
+from src.data import category_columns
+from src.preferences import Preferences, PreferencesStore
+from src.storage import SQLiteRepository
+from src.workbook import WorkbookSynchronizer
 
 
 class DatabaseAnalyticsTests(unittest.TestCase):
